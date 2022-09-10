@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JavaCodeChecker", "JavaCodeChecker.csproj", "{B6D23F3B-5691-446A-9975-ECFD1A5283E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REST_API", "..\REST_API\REST_API.csproj", "{FD55E68B-DF56-4DAA-9EEE-05B38B026455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "..\DAL\DAL.csproj", "{27010963-593F-45F2-83DC-30FBCBB5CF15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6D23F3B-5691-446A-9975-ECFD1A5283E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D23F3B-5691-446A-9975-ECFD1A5283E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D23F3B-5691-446A-9975-ECFD1A5283E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D23F3B-5691-446A-9975-ECFD1A5283E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD55E68B-DF56-4DAA-9EEE-05B38B026455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD55E68B-DF56-4DAA-9EEE-05B38B026455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD55E68B-DF56-4DAA-9EEE-05B38B026455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD55E68B-DF56-4DAA-9EEE-05B38B026455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27010963-593F-45F2-83DC-30FBCBB5CF15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27010963-593F-45F2-83DC-30FBCBB5CF15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27010963-593F-45F2-83DC-30FBCBB5CF15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27010963-593F-45F2-83DC-30FBCBB5CF15}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA241049-3D50-4551-B594-7A5FB8CB5459}
+	EndGlobalSection
+EndGlobal

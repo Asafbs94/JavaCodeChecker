@@ -1,0 +1,55 @@
+﻿<Window x:Class="JavaCodeChecker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:hc="https://handyorg.github.io/handycontrol"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowStartupLocation="CenterScreen"
+        Name="win_Main" Height="650" Width="790" Background="#eee" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="30" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <hc:TextBox  Grid.ColumnSpan="2" Margin="10,2,10,2"
+                     MinLines="2" TextWrapping="Wrap" AcceptsReturn="True"
+                     Name="tbPath" FontSize="16"
+                     hc:InfoElement.Placeholder="Enter a valid Courses Directory Path"
+                     hc:InfoElement.ShowClearButton="True"
+                     hc:InfoElement.Necessary="True" />
+
+        <Button Grid.Column="1" Grid.Row="1" Margin="10,2,10,2" Content="Load Files And Calculate Grades"
+                Name="btnLoad" Click="btnLoad_Click"
+                Style="{StaticResource ButtonPrimary}" />
+
+        <Button Grid.Column="0" Grid.Row="1" Margin="10,2,10,2" Content="Select Path"
+                Name="btnSelect" Click="btnSelect_Click"
+                Style="{StaticResource ButtonDanger}" />
+
+        <hc:BusyIndicator Grid.Row="0" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="2"
+                          Name="busyIndicator" IsBusy="True"
+                          VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black"
+                          BusyContent="Loading Files and Calculating Grades" Panel.ZIndex="999">
+        </hc:BusyIndicator>
+        <DataGrid Grid.Row="3" Name="dgCourseGrades" Grid.ColumnSpan="2"
+                  AutoGenerateColumns="False" CanUserAddRows="False"
+                  Visibility="Visible">
+            <DataGrid.Columns>
+                <DataGridTextColumn Width="*" CanUserResize="False" Binding="{Binding StudentName}" Header="Student Name" />
+                <DataGridTextColumn Width="*" Binding="{Binding StudentId}" Header="Student Id" />
+                <DataGridTextColumn Width="*" Binding="{Binding AverageGrade}" Header="Average Grade" />
+                <DataGridTextColumn Width="*" Binding="{Binding CourseName}" Header="Course" />
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
