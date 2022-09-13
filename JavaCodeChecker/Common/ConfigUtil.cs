@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace JavaCodeChecker.Common
 {
+
+    // these are helper methods to get and save information from app.config file
+
     public static class ConfigUtil
     {
         public static IEnumerable<T> OrEmptyIfNull<T>(this IEnumerable<T> source)

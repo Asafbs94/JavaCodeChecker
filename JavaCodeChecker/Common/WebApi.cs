@@ -5,7 +5,11 @@ using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 namespace JavaCodeChecker.Common
-{
+{ 
+
+    /// <summary>
+    ///  send Api call to controller from our wpf app
+    /// </summary>
     public class WebApi
     {
         /// <summary>
