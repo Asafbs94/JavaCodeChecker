@@ -1,7 +1,8 @@
 ## Java Code Checker
-# microsoft WPF
-# Entity Framework
-# mySql server
+using:
+ microsoft WPF
+ Entity Framework
+ mySql server
 
 
 
