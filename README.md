@@ -1,4 +1,4 @@
-##Java Code Checker##
+##Java Code Checker
 #microsoft WPF
 #Entity Framework
 #mySql server
