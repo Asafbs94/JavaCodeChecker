@@ -3,10 +3,11 @@
 A tool for automating the grading of Java code homework assignments.
 
 ## Features 🔥
-- Manage course folders and homework files on the client-side using WPF.
-- Perform CRUD operations on courses data on the server-side using ASP.NET with a REST API and Entity Framework.
-- Save and retrieve student grades by course name and year.
-
+- Checks whether students homeworks applied or not.
+- Checks whether a students code compiles or not.
+- Looking for a specific REGEX within a student java code file.
+- configurable via rule.json
+- generates .csv report files of students grades
 ## Technology Stack 💻
 - WPF
 - ASP.NET
