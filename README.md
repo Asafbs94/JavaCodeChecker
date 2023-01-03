@@ -3,11 +3,12 @@
 A tool for automating the grading of Java code homework assignments.
 
 ## Features 🔥
-- Checks whether students homeworks applied or not.
-- Checks whether a students code compiles or not.
+- Checks whether the student's homework applied or not.
+- Checks whether a student's code compiles or not.
 - Looking for a specific REGEX within a student java code file.
-- configurable via rule.json
-- generates .csv report files of students grades
+- Configurable via rule.json.
+- Generates .csv report files of student's grades.
+
 ## Technology Stack 💻
 - WPF
 - ASP.NET
