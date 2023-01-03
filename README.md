@@ -16,7 +16,7 @@ A tool for automating the grading of Java code homework assignments.
 ### Prerequisites 📋
 
 - Install the latest version of [Java](https://www.java.com/en/download/)
-- Install the latest version of [.NET](https://dotnet.microsoft.com/download)
+- Install the Dotnet 6 [.NET](https://dotnet.microsoft.com/download)
 - Install [SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
 
 ### Demo 📹
